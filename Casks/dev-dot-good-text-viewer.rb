@@ -1,6 +1,6 @@
 cask "dev-dot-good-text-viewer" do
-  version "1.0.0"
-  sha256 "eed21ebbdebd1effcf0e03f5a0506086337f9883b020ea9f166f8a74386323bb"
+  version "1.0.1"
+  sha256 "732c76a1db206f2cdb38226db5e364470cadb597eec8a7109f7546b628a4ffed"
 
   url "https://github.com/arden-deq/Good-Text-Viewer/releases/download/v#{version}/Good-Text-Viewer-#{version}-macOS-universal.zip"
   name "Good Text Viewer"
@@ -12,7 +12,7 @@ cask "dev-dot-good-text-viewer" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Good Text Viewer.app"
 

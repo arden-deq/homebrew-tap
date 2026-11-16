@@ -1,10 +1,11 @@
 # Dev Dot. Homebrew Tap
 
-Install [Good Text Viewer](https://github.com/arden-deq/Good-Text-Viewer) on macOS 13 or later with Xcode 16 or later. Homebrew builds the app from source.
+Install the notarized [Good Text Viewer](https://github.com/arden-deq/Good-Text-Viewer) app on macOS 13 or later.
 
 ```sh
-brew install arden-deq/tap/good-text-viewer
-good-text-viewer
+brew install --cask arden-deq/tap/dev-dot-good-text-viewer
 ```
 
-If Homebrew prompts for trust, run `brew trust --formula arden-deq/tap/good-text-viewer` and retry installation. To open a file directly, run `good-text-viewer "file.txt"`.
+Open **Good Text Viewer** from Applications. If Homebrew prompts for trust, run `brew trust --cask arden-deq/tap/dev-dot-good-text-viewer` and retry installation.
+
+To build from source with Xcode, install the `arden-deq/tap/good-text-viewer` formula.
